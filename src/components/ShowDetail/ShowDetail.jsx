@@ -7,7 +7,7 @@ import BookingForm from "../BookingForm";
 const ShowDetail = ({ summary, image, ...rest }) => {
   const [showForm, setShowForm] = useState(false);
 
-  const { name, averageRuntime, type, language, genres, url, premiered } = rest;
+  const { name, averageRuntime, type, language, genres, url } = rest;
 
   const tableData = [
     {

@@ -3,7 +3,6 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
-import Dropdown from "react-bootstrap/Dropdown";
 
 const BookingForm = function ({ open, onClose, data }) {
   const [personName, setPersonName] = useState("");
